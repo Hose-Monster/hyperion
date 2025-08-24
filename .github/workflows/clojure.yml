@@ -18,7 +18,7 @@ jobs:
           java-version: '17'      # Use a recent LTS version
           
       - name: Set up Clojure
-      - uses: DeLaGuardo/setup-clojure@v1
+        uses: DeLaGuardo/setup-clojure@v1
         with:
           tools-deps: latest
         
