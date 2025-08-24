@@ -7,7 +7,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build: Continous Integration
+  build: 
     runs-on: ubuntu-latest
     
     steps:
